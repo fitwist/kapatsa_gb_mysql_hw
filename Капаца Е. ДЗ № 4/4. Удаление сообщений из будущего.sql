@@ -1,0 +1,4 @@
+USE vk;
+
+DELETE messages
+WHERE created_at > TIMESTAMP_SUB(CURRENT_TIMESTAMP(), INTERVAL 2 DAY);

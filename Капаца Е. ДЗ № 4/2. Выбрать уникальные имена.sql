@@ -1,0 +1,1 @@
+SELECT DISTINCT firstname from vk.users

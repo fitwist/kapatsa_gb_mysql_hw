@@ -1,0 +1,3 @@
+USE vk;
+
+UPDATE users SET created_at=CURRENT_TIMESTAMP() AND created_at=CURRENT_TIMESTAMP();
